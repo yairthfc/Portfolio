@@ -1,0 +1,3 @@
+C:/Users/yairt/Desktop/university/c projects/ex3a-yairthfc/cmake-build-debug/CMakeFiles/ex3a_yairthfc.dir
+C:/Users/yairt/Desktop/university/c projects/ex3a-yairthfc/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yairt/Desktop/university/c projects/ex3a-yairthfc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

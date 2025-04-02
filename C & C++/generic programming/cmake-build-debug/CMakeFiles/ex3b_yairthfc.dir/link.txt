@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex3b_yairthfc.dir/linked_list.c.o CMakeFiles/ex3b_yairthfc.dir/snakes_and_ladders.c.o CMakeFiles/ex3b_yairthfc.dir/markov_chain.c.o CMakeFiles/ex3b_yairthfc.dir/tweets_generator.c.o -o ex3b_yairthfc 

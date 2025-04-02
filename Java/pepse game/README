@@ -1,0 +1,24 @@
+yairthfc,rontzvick
+207807082,322293390
+
+- In the trees package, we created the following classes:
+   1.Tree: Represents a tree object in the game world. It handles the creation and management of the t
+   ree's structure, including its trunk and branches.
+   2.Leaf: Represents a leaf object that is part of a tree. It handles the
+   behavior and appearance of individual leaves.
+   3.Fruit: Represents a fruit object that can grow on trees. It handles the behavior and appearance of
+   individual fruits.
+   4.Flora: Manages the creation of multiple trees within a specified range in the game world.
+
+-Relationships Between Classes:
+  * The Tree class contains multiple Leaf objects. Each tree manages its leaves, including their creation,
+  positioning, and behavior.
+  * The Tree class also contains multiple Fruit objects. Each tree manages its fruits, including
+   their creation,positioning, and behavior.
+  * The Flora class manages multiple Tree objects. It is responsible for creating trees within a
+   specified range and adding them to the game world.
+
+-We used the Composite design pattern in the trees package. The Tree class acts as a
+ composite object that contains multiple Leaf and Fruit objects. This pattern allows
+ us to treat individual leaves and fruits uniformly and managethem as part of the tree structure.
+  The Flora class acts as a manager for creating and organizing multiple Tree objects in the game world.

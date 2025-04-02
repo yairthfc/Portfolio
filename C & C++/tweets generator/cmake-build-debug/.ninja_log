@@ -1,0 +1,9 @@
+# ninja log v5
+0	136	7144207511105494	CMakeFiles/ex3a_yairthfc.dir/linked_list.c.obj	4040da03a152febe
+116	246	7145100820915042	ex3a_yairthfc.exe	e98eacef2f224607
+3	115	7145100819678680	CMakeFiles/ex3a_yairthfc.dir/tweets_generator.c.obj	d9328c7e6843ec39
+2	81	7145088387452990	CMakeFiles/ex3a_yairthfc.dir/markov_chain.c.obj	da0e0a89a20b7798
+29	144	7557206313868371	CMakeFiles/ex3a_yairthfc.dir/linked_list.c.obj	fd197763256f2f25
+36	161	7557206314031389	CMakeFiles/ex3a_yairthfc.dir/tweets_generator.c.obj	e39556ec204e531e
+4	176	7557206314190296	CMakeFiles/ex3a_yairthfc.dir/markov_chain.c.obj	3cab6f6522842fc0
+176	366	7557206315997207	ex3a_yairthfc.exe	e98eacef2f224607

@@ -1,0 +1,38 @@
+Resource Loading
+===================
+* Animations can be initialized using a folder path that contains all image files.
+
+* Animations can be initialized using a spritesheet.
+
+* spritesheets can include multiple rows of different animations or multiple rows of the same animation.
+
+* ImageReader and ImageRenderable offer crop functionality.
+
+* Sounds loaded by the same SoundReader are cached and would not be loaded again from disk unless the cache is cleared.
+
+* Changed default behavior for failure in loading sounds and images. When a sound cannot be loaded for the first time, a message box appears and the game continues. When an image or animation cannot load, it is replaced by a magenta square and a message is logged to stderr. These behaviors can be customized by changing the default behavior for the message-levels ERROR and WARNING correspondingly.
+
+* Likewise images are cached, together with their crop settings.
+
+
+Input
+=====
+* Added the movement_schemes package. The package contains various MovementSchemes that can control either a user-avatar or an AI-agent using common movement schemes: PlatformerMovementScheme, SteeringMovementScheme, RailMovementScheme, DirectionalMovementScheme, DragMovementScheme, and TargetMovementScheme (see javadoc of each). These support either customizable keybindings/mouse, or user-specified functions that would tell the MovementScheme when and how to move.
+
+* Interface of UserInputListener expanded: can query if a key or mouse-button was pressed/released in this frame. Can also query which are currently pressed.
+
+
+General
+=======
+* New layers in GameObjectsCollection can be referred to without first adding objects to them.
+
+* Added a complete logging system, see WindowController.messages().
+
+* Added the convenience classes SwitchComponent and SwitchRenderable. These are respectively a Component
+  and Renderable decorators, that choose the appropriate Component/Renderable to delegate to based on
+  a supplied condition list. For example, the SwitchComponent can be used to assign a MovementScheme to
+  the GameObject that switches between multiple actual schemes depending on the scenario. 
+  The SwitchRenderable can be used to render the idle Renderable if the object doesn't move 
+  and a running/jumping one if some condition holds.
+
+* Code examples were updated, and the AirEarthWater code example was added.

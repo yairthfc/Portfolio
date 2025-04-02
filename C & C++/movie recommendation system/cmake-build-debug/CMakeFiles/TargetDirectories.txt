@@ -1,0 +1,3 @@
+/mnt/c/Users/yairt/Desktop/ex5-yairthfc/cmake-build-debug/CMakeFiles/ex5_yairthfc.dir
+/mnt/c/Users/yairt/Desktop/ex5-yairthfc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/yairt/Desktop/ex5-yairthfc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
